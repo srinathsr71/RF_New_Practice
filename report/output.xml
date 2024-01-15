@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.0 on win32)" generated="20230303 15:58:54.045" rpa="false" schemaversion="3">
+<suite id="s1" name="Complete" source="H:\Robot framework practice\example\complete.robot">
+<test id="s1-t1" name="Launch application" line="13">
+<kw name="opening the application">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230303 15:58:54.598" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com'.</msg>
+<status status="PASS" starttime="20230303 15:58:54.597" endtime="20230303 15:59:03.315"/>
+</kw>
+<status status="PASS" starttime="20230303 15:58:54.596" endtime="20230303 15:59:03.316"/>
+</kw>
+<status status="PASS" starttime="20230303 15:58:54.593" endtime="20230303 15:59:03.322"/>
+</test>
+<status status="PASS" starttime="20230303 15:58:54.050" endtime="20230303 15:59:03.325"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Complete">Complete</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

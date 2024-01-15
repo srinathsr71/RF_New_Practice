@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221118 15:10:32.648" rpa="false" schemaversion="3">
+<suite id="s1" name="Testcase2" source="H:\Robotframework\testcases\testcase2.robot">
+<test id="s1-t1" name="loginpage" line="6">
+<kw name="checking login functionality" library="Second">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${browser}</arg>
+<arg>${url}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221118 15:10:33.852" level="INFO">Opening browser 'www.youtube.com' to base url 'googlechrome'.</msg>
+<msg timestamp="20221118 15:10:33.853" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20221118 15:10:33.853" level="FAIL">ValueError: www.youtube.com is not a supported browser.</msg>
+<status status="FAIL" starttime="20221118 15:10:33.850" endtime="20221118 15:10:33.865"/>
+</kw>
+<status status="FAIL" starttime="20221118 15:10:33.846" endtime="20221118 15:10:33.869"/>
+</kw>
+<status status="FAIL" starttime="20221118 15:10:33.842" endtime="20221118 15:10:33.872">ValueError: www.youtube.com is not a supported browser.</status>
+</test>
+<status status="FAIL" starttime="20221118 15:10:32.655" endtime="20221118 15:10:33.877"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Testcase2">Testcase2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
